@@ -66,10 +66,8 @@ namespace chadepanela
                 salvar();
             else if (hfTipoOperacao.Value.Equals("E"))
                 alterar();
-
-            bindarGrid();
-
-            mvLista.SetActiveView(vwLista);
+            
+            Response.Redirect("~/Lista.aspx");
         }
 
         protected void btnInserir_Click(object sender, EventArgs e)

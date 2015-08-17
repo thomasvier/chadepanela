@@ -94,10 +94,8 @@ namespace chadepanela
                 salvar();
             else if(hfOperacao.Value.Equals("E"))
                 alterar();
-            
-            bindarGrid();
 
-            mvItem.SetActiveView(vwItens);
+            Response.Redirect("~/Item.aspx");
         }
 
         protected void btnInserir_Click(object sender, EventArgs e)

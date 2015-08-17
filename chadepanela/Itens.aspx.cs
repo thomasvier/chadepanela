@@ -42,7 +42,7 @@ namespace chadepanela
 
                 if (stat.Equals("T"))
                 {
-                    ((ImageButton)row.Cells[2].FindControl("btnStatus")).ImageUrl = "~/Imagens/delete.png";
+                    ((ImageButton)row.Cells[2].FindControl("btnStatus")).ImageUrl = "~/Imagens/sold.png";
                     ((ImageButton)row.Cells[2].FindControl("btnStatus")).Enabled = false;
                     ((Label)row.Cells[2].FindControl("lblStatus")).Text = "Alguém já comprou este item.";
                 }

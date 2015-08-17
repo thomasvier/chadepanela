@@ -117,6 +117,7 @@
     <Content Include="Imagens\delete.png" />
     <Content Include="Imagens\edit.png" />
     <Content Include="Imagens\gift.png" />
+    <Content Include="Imagens\sold.png" />
     <Content Include="Item.aspx" />
     <Content Include="Itens.aspx" />
     <Content Include="Lista.aspx" />
