@@ -5,7 +5,7 @@
         <asp:View ID="vwItens" runat="server">
             <asp:Button ID="btnInserir" runat="server" Text="Inserir novo" CssClass="btn" OnClick="btnInserir_Click" />
             <br /><br />
-            <asp:GridView ID="gvItens" runat="server" GridLines="None" CssClass="grid" AutoGenerateColumns="false" Width="700"
+            <asp:GridView ID="gvItens" runat="server" GridLines="None" AutoGenerateColumns="false" Width="700"
                 OnRowCommand="gvItens_RowCommand">
                 <Columns>
                     <asp:TemplateField HeaderText="Editar" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="50px">

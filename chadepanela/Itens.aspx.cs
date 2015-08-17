@@ -50,7 +50,7 @@ namespace chadepanela
                 {
                     ((ImageButton)row.Cells[2].FindControl("btnStatus")).ImageUrl = "~/Imagens/gift.png";
                     ((ImageButton)row.Cells[2].FindControl("btnStatus")).Enabled = true;
-                    ((Label)row.Cells[2].FindControl("lblStatus")).Text = "Dê este item.";
+                    ((Label)row.Cells[2].FindControl("lblStatus")).Text = "Quero dar este item.";
                 }
             }
         }

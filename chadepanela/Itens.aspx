@@ -12,7 +12,7 @@
                     <ItemTemplate> 
                         <div class="row" style="margin-left: 500px">
                             <div class="col-lg-2">
-                                <asp:ImageButton ID="btnStatus" runat="server" CommandName="status" CommandArgument="<%# ((GridViewRow) Container).RowIndex %>" CssClass="btnIcon" ToolTip="Este item é meu :D" />
+                                <asp:ImageButton ID="btnStatus" runat="server" CommandName="status" CommandArgument="<%# ((GridViewRow) Container).RowIndex %>" CssClass="btnIcon" />
                             </div>
                             <div class="col-lg-8">                        
                                 <asp:Label ID="lblStatus" runat="server"></asp:Label>
