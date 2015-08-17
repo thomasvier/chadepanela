@@ -12,6 +12,7 @@
           <Property Name="id" Type="int" Nullable="false" />
           <Property Name="descricao" Type="varchar" MaxLength="300" Nullable="false" />
           <Property Name="idLista" Type="int" />
+          <Property Name="status" Type="char" MaxLength="1" />
         </EntityType>
         <EntityType Name="lista">
           <Key>
@@ -60,6 +61,7 @@
           <Property Name="descricao" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
           <Property Name="idLista" Type="Int32" />
           <NavigationProperty Name="lista" Relationship="cpModel.FK__item__idLista__1273C1CD" FromRole="item" ToRole="lista" />
+          <Property Name="status" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
         </EntityType>
         <EntityType Name="lista">
           <Key>
@@ -90,6 +92,7 @@
           <EntitySetMapping Name="item">
             <EntityTypeMapping TypeName="cpModel.item">
               <MappingFragment StoreEntitySet="item">
+                <ScalarProperty Name="status" ColumnName="status" />
                 <ScalarProperty Name="idLista" ColumnName="idLista" />
                 <ScalarProperty Name="descricao" ColumnName="descricao" />
                 <ScalarProperty Name="id" ColumnName="id" />

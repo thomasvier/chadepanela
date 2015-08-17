@@ -17,6 +17,7 @@ namespace chadepanela
         public int id { get; set; }
         public string descricao { get; set; }
         public Nullable<int> idLista { get; set; }
+        public string status { get; set; }
     
         public virtual lista lista { get; set; }
     }

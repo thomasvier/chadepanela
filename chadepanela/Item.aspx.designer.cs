@@ -76,6 +76,15 @@ namespace chadepanela {
         protected global::System.Web.UI.WebControls.DropDownList ddlLista;
         
         /// <summary>
+        /// chkStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkStatus;
+        
+        /// <summary>
         /// btnSalvar control.
         /// </summary>
         /// <remarks>
@@ -92,5 +101,14 @@ namespace chadepanela {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hfOperacao;
+        
+        /// <summary>
+        /// hfID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hfID;
     }
 }

@@ -5,10 +5,23 @@
         <asp:View ID="vwLista" runat="server">
             <asp:Button ID="btnInserir" runat="server" Text="Inserir novo" CssClass="btn" OnClick="btnInserir_Click" />
             <br /><br />
-            <asp:GridView ID="gvLista" runat="server" GridLines="None" AutoGenerateColumns="false" Width="500">
+            <asp:GridView ID="gvLista" runat="server" GridLines="None" CssClass="grid" AutoGenerateColumns="false" Width="500"
+                OnRowCommand="gvLista_RowCommand">
                 <Columns>
-                    <asp:BoundField HeaderText="Código" DataField="id" SortExpression="id" Visible="false" />
-                    <asp:BoundField HeaderText="Descrição" DataField="descricao" SortExpression="descricao" />
+                    <asp:TemplateField HeaderText="Editar" HeaderStyle-HorizontalAlign="Center" HeaderStyle-Width="50px">
+                        <ItemTemplate>                        
+                            <asp:ImageButton ID="btnEditar" runat="server" CssClass="btnGrid" CommandName="Editar" CommandArgument="<%# ((GridViewRow) Container).RowIndex %>"
+                                ImageUrl="~/Imagens/edit.png" ToolTip="Editar..." />
+                        </ItemTemplate> 
+                    </asp:TemplateField>
+                    <asp:TemplateField HeaderText="Excluir" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="50px">
+                        <ItemTemplate>                        
+                            <asp:ImageButton ID="btnExcluir" runat="server" CssClass="btnGrid" CommandName="Excluir" CommandArgument="<%# ((GridViewRow) Container).RowIndex %>"
+                                ImageUrl="~/Imagens/delete.png" ToolTip="Excluir..." />
+                        </ItemTemplate> 
+                    </asp:TemplateField>
+                    <asp:BoundField HeaderText="Código" DataField="id" SortExpression="id" HeaderStyle-CssClass="gridHidden" ItemStyle-CssClass="gridHidden" />
+                    <asp:BoundField HeaderText="Descrição" DataField="descricao" HeaderStyle-Width="300" SortExpression="descricao" />
                 </Columns>
             </asp:GridView>
         </asp:View>
@@ -24,4 +37,5 @@
         </asp:View>
     </asp:MultiView>   
     <asp:HiddenField ID="hfTipoOperacao" runat="server" /> 
+    <asp:HiddenField ID="hfID" runat="server" /> 
 </asp:Content>
