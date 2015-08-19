@@ -67,7 +67,7 @@ btnGrid
     padding: 2px; 
     color: #717171; 
     height: 70px;
-    background: linear-gradient(to bottom, #FFC0CB, white);
+    background: linear-gradient(to bottom, #FFC0CB, snow);
 }
 .mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }
 .mGrid .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }
