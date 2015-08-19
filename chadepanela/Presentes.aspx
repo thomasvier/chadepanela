@@ -17,7 +17,7 @@
                             <div style="float: left">
                                 <asp:ImageButton ID="btnStatus" runat="server" CommandName="status" CommandArgument="<%# ((GridViewRow) Container).RowIndex %>" CssClass="btnIcon" />
                             </div>
-                            <div style="margin-left: 50px; width: 200px; text-align: justify">                        
+                            <div style="margin-left: 50px; width: 200px;">                        
                                 <asp:Label ID="lblStatus" runat="server"></asp:Label>
                             </div>
                         </div>                   
