@@ -44,13 +44,13 @@ namespace chadepanela
                 {
                     ((ImageButton)row.Cells[2].FindControl("btnStatus")).ImageUrl = "~/Imagens/sold.png";
                     ((ImageButton)row.Cells[2].FindControl("btnStatus")).Enabled = false;
-                    ((Label)row.Cells[2].FindControl("lblStatus")).Text = "Alguém já comprou este item.";
+                    ((Label)row.Cells[2].FindControl("lblStatus")).Text = @"Alguém já marcou este presente. Eba! Eu vou adorar :D";
                 }
                 else
                 {
                     ((ImageButton)row.Cells[2].FindControl("btnStatus")).ImageUrl = "~/Imagens/gift.png";
                     ((ImageButton)row.Cells[2].FindControl("btnStatus")).Enabled = true;
-                    ((Label)row.Cells[2].FindControl("lblStatus")).Text = "Quero dar este item.";
+                    ((Label)row.Cells[2].FindControl("lblStatus")).Text = "Quero dar este presente";
                 }
             }
         }

@@ -3,6 +3,7 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
     font-family: 'Comic Sans MS';
+    background-color: #FFC0CB;
 }
 
 /* Wrapping element */
@@ -87,16 +88,13 @@ btnGrid
     width: 100%; 
     background-color: #fff; 
     margin: 5px 0 10px 0; 
-    border-bottom: solid 1px #525252;  
     border-collapse:collapse; 
 }
 .mGrid td { 
     padding: 2px; 
-    border-bottom: solid 1px #e2e2e2; 
-    border-top: solid 1px #e2e2e2; 
     color: #717171; 
-    height: 100px;
-    background: linear-gradient(to bottom, snow, white);
+    height: 70px;
+    background: linear-gradient(to bottom, #FFC0CB, white);
 }
 .mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }
 .mGrid .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }
