@@ -8,7 +8,7 @@
     <title>Chá da Tamy!</title>
 
     
-
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
     <webopt:bundlereference runat="server" path="~/Content/css" />
 
 </head>
