@@ -34,7 +34,7 @@
                 <asp:ScriptReference Name="WebFormsBundle" />
             </Scripts>
         </asp:ScriptManager>
-        <div style="width: 1000px">
+        <div style="width: 1500px">
             <ul style="list-style: none">
                 <li><a runat="server" href="~/" style="color: #FF69B4; text-decoration: none; display: inline; margin-left: 500px; font-size: 30px; font-family: 'Lucida Calligraphy' ">Chá de casa nova da Tamy</a></li>
             </ul>
