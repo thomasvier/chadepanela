@@ -35,10 +35,10 @@
             </Scripts>
         </asp:ScriptManager>
         <div style="width: 1000px">
-        <ul style="list-style: none">
-            <li><a runat="server" href="~/" style="color: #FF69B4; display: inline; margin-left: 500px; font-size: 30px; font-family: 'Lucida Calligraphy' ">Chá de casa nova da Tamy</a></li>
-        </ul>
-            </div>
+            <ul style="list-style: none">
+                <li><a runat="server" href="~/" style="color: #FF69B4; display: inline; margin-left: 500px; font-size: 30px; font-family: 'Lucida Calligraphy' ">Chá de casa nova da Tamy</a></li>
+            </ul>
+        </div>
         <div>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
@@ -47,7 +47,6 @@
                 
             </footer>
         </div>
-
     </form>
 </body>
 </html>
