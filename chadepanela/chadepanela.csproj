@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -119,7 +120,7 @@
     <Content Include="Imagens\gift.png" />
     <Content Include="Imagens\sold.png" />
     <Content Include="Item.aspx" />
-    <Content Include="Itens.aspx" />
+    <Content Include="Presentes.aspx" />
     <Content Include="Lista.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -227,12 +228,12 @@
     <Compile Include="item.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Itens.aspx.cs">
-      <DependentUpon>Itens.aspx</DependentUpon>
+    <Compile Include="Presentes.aspx.cs">
+      <DependentUpon>Presentes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Itens.aspx.designer.cs">
-      <DependentUpon>Itens.aspx</DependentUpon>
+    <Compile Include="Presentes.aspx.designer.cs">
+      <DependentUpon>Presentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Lista.aspx.cs">
       <DependentUpon>Lista.aspx</DependentUpon>
