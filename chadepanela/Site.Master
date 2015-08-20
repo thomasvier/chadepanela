@@ -36,7 +36,7 @@
         </asp:ScriptManager>
         <div style="width: 1500px">
             <ul style="list-style: none">
-                <li><a runat="server" href="~/" style="color: #FF69B4; text-decoration: none; display: inline; margin-left: 500px; font-size: 30px; font-family: 'Lucida Calligraphy' ">Chá de casa nova da Tamy</a></li>
+                <li><a runat="server" href="~/" style="color: #FF69B4; text-decoration: none; display: inline; margin-left: 400px; font-size: 30px; font-family: 'Lucida Calligraphy' ">Chá de casa nova da Tamy</a></li>
             </ul>
         </div>
         <div style="width: 1200px">

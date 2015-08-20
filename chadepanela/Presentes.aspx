@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Presentes.aspx.cs" Inherits="chadepanela.Itens" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="margin-left: 330px; margin-top: 20px">
+    <div style="margin-left: 230px; margin-top: 20px">
         <div style="width:900px">
             <p style="font-size: 14px">Meninas, os itens com o <img src="Imagens/gift.png" class="btnIcon"/> estão esperando para vocês marcarem para me dar. Os que estão no <img src="Imagens/sold.png" class="btnIcon"/> alguém já escolheu.</p>                                    
         </div>
